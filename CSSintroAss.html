@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <title>DeliciousBlog</title>
         <link rel="stylesheet" type="text/css" href="960.css">
-        <!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
+        <link rel="stylesheet" type="text/css" href="style.css"> 
         <link href='http://fonts.googleapis.com/css?family=Yellowtail|Anton' rel='stylesheet' type='text/css'>
     </head>
     <body>
@@ -29,11 +29,11 @@
           </section>
       </header>
       <hr>
-      <article>
+      <article class="clearfix">
         <header>
           <section class ="middle">
               <h2>Chocolate Pizza</h2>
-              <h2>Posted on Dec 15 2013/Desserts</h2>
+              <p>Posted on Dec 15 2013/Desserts</p>
               <img src="images/print-icon.png">
           </section>
         </header>
@@ -41,8 +41,8 @@
           <p id "stepOne" class "content">For the fig-swirl: melt butter over medium heat in a saucepan. Add brownsugar and stir to dissolve. Halve all of the figs and toss in the saucepan with water and lemon juice.Cook over medium heat, stirring frequenty, until you have a chuncky, jammy-mixture. Add salt with one or stirs,  set aside and let cool completely.</p>
           <p id "stepTwo" class "conetent">Icecream: In a small pot over medium heat, combine milk, and granulated sugar until the sugar in completely dissolved and the milk is just barely luke-warm. Whisk in the egg yokes.Set mixture in the fridge and wait until the fig mixture is cooled.</p>
           <p id "combSteps" class "content">Using an icecream machine, pour liquids into the frozen basinand proccess according to manufacturer instructions, i.e. let spin and thicken for 20 minutes before adding, mascapone, fig mixture and the nuts. Continue to proccess for +/- 10 minutes. Pour semi-frozen mixture into a pyrex dish or glass tupperware. Freeze for at least two hours before serving.</p>
-      <section class = "groceryList">
-          <section class ="groceries">
+      <section class="groceryList" class="clearfix">
+          <section class ="groceries grid_7">
               <input type='checkbox' id='list1' value='1 1/2 cups milk'/>
               <label for='list1'>1 1/2 cups milk</label><br>
               <input type='checkbox' id='list2' value='1/2 cup mascarpone'/>
@@ -72,17 +72,21 @@
           </section> 
       </section>
       </article>
-      <section>
-          <img src="images/van-pic.png">
-          <h3>Vanessa Stevenson</h3>
-          <p>Food enthusiast, photography fan. Add a pinch of raw foodism and that's pretty much who I am.</p>
-          <button>Share Recipe</button>
+      <article class="clearfix">
+        <img class="grid_1" src="images/van-pic.png">
+      <section class="top grid_8">
+        <h3>Vanessa Stevenson</h3>
+        <p>Food enthusiast, photography fan. Add a pinch of raw foodism and that's pretty much who I am.</p >
       </section>
-      <footer>
-          <hr class='bottomline'>
-          <img src="images/small-logo.png">
-          <hr class='bottomline'>
-          <p>Delicious &copy; 2013 &bullet; All Rights Reserved.<br> proudly published with ghost.</p>
+        <button class="top grid_2 push_5">Share Recipe</button>
+      </article>
+      <hr class='bottomline'>
+      <hr class='bottomline'>
+      <section class="grid_2 push_8" class="clearfix">
+        <img src="images/small-logo.png">
+      </section>
+      <footer class="grid_6 push_4" class="clearfix">
+        <p>Delicious &copy; 2013 &bullet; All Rights Reserved.<br> proudly published with ghost.</p>
       </footer> 
     </div> 
   </body>

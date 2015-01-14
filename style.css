@@ -50,9 +50,6 @@ header{
 	width: 960px;
 	margin: 0 auto;
 }
-header img {
-  margin: 0;
-}
 
 section.top {
 	margin: 0;
@@ -62,11 +59,6 @@ section.top {
   font-size: 2.5em;
   font-family: 'Yellowtail', cursive;
   display: inline;
-}
-
-.socialMedia {
-  margin-right: 5px;
-  padding: 0;
 }
 
 header h2 {
@@ -81,11 +73,6 @@ hr {
 p, h3 {
 	font-family: 'Droid Serif', serif;
 	font-weight: 400;}
-
-.socialMedia {
-  float:right;
-}
-
 
 p {
 	font-family: 'Droid Serif', serif;
@@ -114,9 +101,6 @@ address {
 }
 h3 {
 	display: inline-block;
-}
-button {
-	float: right;
 }
 
 
