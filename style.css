@@ -1,15 +1,11 @@
 * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
  * http://cssreset.com
  */
-html, body, div, span, object,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, dl, dt, dd, ol, ul, li,
-form, label, legend, table,tr, th, td,
-article, aside, figure, footer, header, hgroup, 
-menu, nav, output, section,
-time, {
+html, body, div, span, object, h1, h2, h3, p, a, em, img, q, strong, var, b, u, i, ol, ul, li,
+form, label, table, tr, th, td, article, aside, footer, header, menu, nav,section,
+time, 
+
+{
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -18,8 +14,7 @@ time, {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
+article, aside, footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
@@ -41,49 +36,92 @@ table {
 	border-spacing: 0;
 }
 /* End of Eric's Reset and beginning of my styling*/
-@font-face{
-	font-family: "Yellowtail";
-	src url ("wwww.google.com/webfonts");
+
+
+
+
+
+body {
+	width: 900px;
+	margin: 0 auto;
 }
 
-h1 {
-	font-family: 'Yellowtail', cursive;
+header{
+	width: 960px;
+	margin: 0 auto;
+}
+header img {
+  margin: 0;
+}
+
+section.top {
+	margin: 0;
+	float: left;
+}
+ h1 {
+  font-size: 2.5em;
+  font-family: 'Yellowtail', cursive;
+  display: inline;
+}
+
+.socialMedia {
+  margin-right: 5px;
+  padding: 0;
+}
+
+header h2 {
+	font-family: 'Abel', sans-serif;
 	font-weight: 700;
 }
-h2 {
-	font-family: 'Oswald', sans-serif;
-	font-weight: 700;
+
+hr {
+  clear: both;
 }
+
+p, h3 {
+	font-family: 'Droid Serif', serif;
+	font-weight: 400;}
+
+.socialMedia {
+  float:right;
+}
+
 
 p {
-	font-family: 'Slabo 27px', serif;
+	font-family: 'Droid Serif', serif;
+	font-weight: 400;}
+
+.groceryList {
+	font-family: 'Patrick Hand', cursive;
 	font-weight: 400;
-}
-
-li{
-	font-family: 'Coming Soon', cursive;
-	font-weight: 400;
-}
-
-nav{
-	text-align: right;
-}
-
-li {
 	position: fixed
 	top: 0px;
 	left: 0px;
 	margin: 0px;
 	padding: 10px;
 	width: 100%;
-	background-color: red;
+	background-image: url("images/list-bg.png");
 	z-index: 10;
 }
 
-div {
-	position: relative;
-	top: 70px;
-	left: 70px;	
+.groceries {
+	display: inline-block;
+	width: 48%;
 }
+
+address {
+	font-style: none;
+}
+
+@font-face {
+	font-family: "Yellowtail";
+	src url ("http://fonts.googleapis.com/css?family=Abel|Patrick+Hand|Yellowtail|Droid+Serif' rel='stylesheet' type='text/css'");
+}
+
+
+
+
+
+
 
 
