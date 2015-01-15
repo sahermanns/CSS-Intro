@@ -1,3 +1,5 @@
+
+
 * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
  * http://cssreset.com
  */
@@ -37,46 +39,35 @@ table {
 }
 /* End of Eric's Reset and beginning of my styling*/
 
-
-
-
+/*My updated styling in a more logical order!!*/
 
 body {
 	width: 900px;
 	margin: 0 auto;
+	font-family: 'Droid Serif', serif;
+	font-weight: 400;
 }
-
-header{
-	width: 960px;
-	margin: 0 auto;
-}
-
-section.top {
-	margin: 0;
-	float: left;
-}
- h1 {
-  font-size: 2.5em;
+h1 {
+  font-size: 35px;
   font-family: 'Yellowtail', cursive;
   display: inline;
 }
 
-header h2 {
-	font-family: 'Abel', sans-serif;
+h2 {
+	font-size: 16px;
+	fontt-family:'Abel';
+	font-weight: 400;
+}
+
+.cp {
+	font-family:'Abel';
+	font-size: 40px;
 	font-weight: 700;
 }
 
-hr {
-  clear: both;
+.print {
+	float: right;	
 }
-
-p, h3 {
-	font-family: 'Droid Serif', serif;
-	font-weight: 400;}
-
-p {
-	font-family: 'Droid Serif', serif;
-	font-weight: 400;}
 
 .groceryList {
 	font-family: 'Patrick Hand', cursive;
@@ -95,19 +86,26 @@ p {
 	display: inline-block;
 	width: 48%;
 }
-
 address {
 	font-style: none;
 }
-h3 {
-	display: inline-block;
+
+button {
+	font-style:'Abel', sans-serif;
+	padding: 8px 12px 10px;
+	border: 6px outset buttonface;
+}
+
+footer {
+	text-align: center;
+}
+
+.ftlogo {
+	text-align: center;
 }
 
 
-@font-face {
-	font-family: "Yellowtail";
-	src url ("http://fonts.googleapis.com/css?family=Abel|Patrick+Hand|Yellowtail|Droid+Serif' rel='stylesheet' type='text/css'");
-}
+	
 
 
 
