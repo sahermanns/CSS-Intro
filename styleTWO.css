@@ -1,0 +1,116 @@
+
+
+* Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+ * http://cssreset.com
+ */
+html, body, div, span, object, h1, h2, h3, p, a, em, img, q, strong, var, b, u, i, ol, ul, li,
+form, label, table, tr, th, td, article, aside, footer, header, menu, nav,section,
+time, 
+
+{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* End of Eric's Reset and beginning of my styling*/
+
+/*My updated styling in a more logical order!!*/
+
+body {
+	width: 900px;
+	margin: 0 auto;
+	font-family: 'Droid Serif', serif;
+	font-weight: 400;
+}
+h1 {
+  font-size: 35px;
+  font-family: 'Yellowtail', cursive;
+  display: inline;
+}
+
+h2 {
+	font-size: 16px;
+	fontt-family:'Abel';
+	font-weight: 400;
+}
+
+.cp {
+	font-family:'Abel';
+	font-size: 40px;
+	font-weight: 700;
+}
+
+.print {
+	float: right;	
+}
+
+.groceryList {
+	font-family: 'Patrick Hand', cursive;
+	font-weight: 400;
+	position: fixed
+	top: 0px;
+	left: 0px;
+	margin: 0px;
+	padding: 10px;
+	width: 100%;
+	background-image: url("images/list-bg.png");
+	z-index: 10;
+}
+
+.groceries {
+	display: inline-block;
+	width: 48%;
+}
+address {
+	font-style: none;
+}
+
+button {
+	font-style:'Abel', sans-serif;
+	padding: 8px 12px 10px;
+	border: 6px outset buttonface;
+}
+
+footer {
+	text-align: center;
+}
+
+.ftlogo {
+	text-align: center;
+}
+
+
+	
+
+
+
+
+
+
+
+
